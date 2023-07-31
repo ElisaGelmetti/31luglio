@@ -30,9 +30,5 @@ getData2(product:Product){
   this.favouriteList.push(product)
   console.log(this.favouriteList, 'nel component')
   }
-  getData3(product:Product){
-   this.favouriteList = this.productSvc.getData3(product)
-    console.log(this.favouriteList)
 
-  }
 }
